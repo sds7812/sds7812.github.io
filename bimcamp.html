@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {margin: initial; }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: initial; /*고유의 값*/
+      font-size: inherit; /*상속*/
+      font-weight: inherit;
+    }
+    img {vertical-align: top;} /*이미지하단 삐져나온 header 영역 없애기*/
+    .header {position: relative; overflow: hidden; color: orange; height: 400px; display: flex;}
+    .header-title {background-color: dodgerblue;margin-top: auto; margin-bottom: auto; margin-left: auto; margin-right: auto;}
+    .header-background {
+      position: absolute; left: 0; top: 0;object-fit: cover; z-index: -1; width: 100%;height: 100%;
+    }
+/* Variables */
+    :root {
+
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header-title">Code Portfolio</h1>
+    <img class="header-background" src="https://placeimg.com/1200/640/any" />
+    
+  </header>
+  
+
+  56분 29초 https://www.youtube.com/watch?v=N4dosibYlOk
+
+  <div class="card">
+    <h1 class="entry-title">
+      <a href="#">IMWEB DESIGN <br>MAPPING<br>IMWEBDEGIN<br>MAPPPING</a>
+    </h1>
+  </div>
+  <style>
+    .card {width: 850px; padding: 30px; background: #1abc9c;margin: auto;}
+    .card:hover {box-shadow: 0.5px 20px rgba(0, 0, 0, 0.3);}
+  </style>
+</body>
+</html>

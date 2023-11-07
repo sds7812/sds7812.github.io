@@ -1,0 +1,24 @@
+
+#header{
+
+border-bottom: 5px solid #f15252;
+  
+}
+#title{
+  height: 80px;
+  background: yellow;
+}
+.gnb{
+background: gray;
+
+}
+.topnav{
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  margin-left: 50px;
+}
+.topnav li ul{
+  display: none;
+}
